@@ -1,0 +1,28 @@
+body {
+  background: #eeeeee;
+  background: -moz-linear-gradient(top, #eeeeee 0%, #bdbdbd 100%);
+  background: -webkit-linear-gradient(top, #eeeeee 0%,#bdbdbd 100%);
+  background: linear-gradient(to bottom, #eeeeee 0%,#bdbdbd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#bdbdbd',GradientType=0 );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card {
+  background: #fafafa;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fcfcfc;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 48px 0 48px;
+}
+
+.album-cover {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+
+.row:not(:first-child){
+  margin-top: 16px;
+}

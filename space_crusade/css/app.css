@@ -1,0 +1,134 @@
+* { padding: 0; margin: 0; }
+
+body {
+  background-color: #08080c;
+  background-image: url(../img/pirateship.gif);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #4f2b06;
+  font-family: "Pixel Pirate", Gergia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 24px;
+  font-style: normal;
+  image-rendering: pixelated;
+  line-height: 1.6;
+}
+
+.main {
+  margin: auto;
+  max-width: 900px;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+}
+
+.btn {
+  background: #ffd000;
+  border: 2px solid #d8a500;
+  box-shadow: #AA7320 5px 5px 0;
+  color: black;
+  display: block;
+  margin: 0 10px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFDA0A;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-left {
+  background-image: url(../img/parchment_vga_final_01.gif);
+  height: 68px;
+  width: 103px;
+}
+
+.top-center {
+  background-image: url(../img/parchment_vga_final_02.gif);
+  background-repeat: repeat-x;
+  height: 68px;
+  flex-grow: 1;
+}
+
+.top-right {
+  background-image: url(../img/parchment_vga_final_03.gif);
+  height: 68px;
+  width: 110px;
+}
+
+.second-top-left {
+  background-image: url(../img/parchment_vga_final_04.gif);
+  height: 70px;
+  width: 103px;
+}
+
+.second-top-center {
+  background-color: #FFBF82;
+  flex-grow: 1;
+}
+
+.second-top-right {
+  background-image: url(../img/parchment_vga_final_06.gif);
+  height: 70px;
+  width: 110px;
+}
+
+.left {
+  background-image: url(../img/parchment_vga_final_07.gif);
+  background-repeat: repeat-y;
+  width: 103px;
+}
+
+.right {
+  background-image: url(../img/parchment_vga_final_09.gif);
+  background-position: right top;
+  background-repeat: repeat-y;
+  width: 110px;
+}
+
+.bottom-left {
+  background-image: url(../img/parchment_vga_final_10.gif);
+  height: 89px;
+  width: 103px;
+}
+
+.bottom-center {
+  background-image: url(../img/parchment_vga_final_11.gif);
+  background-repeat: repeat-x;
+  height: 89px;
+  flex-grow: 1;
+}
+
+.bottom-right {
+  background-image: url(../img/parchment_vga_final_12.gif);
+  height: 89px;
+  width: 110px;
+}
+
+.center {
+  background-color: #FFBF82;
+  flex-grow: 1;
+}
+
+.soundcloud {
+  margin: 25px 0 0 0;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.tracks li {
+  margin: 19px 0;
+}

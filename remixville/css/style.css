@@ -1,0 +1,44 @@
+body {
+  background: #28a8e8;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.masthead {
+  background: url("../images/city_silhouette_background.png") 0 0 repeat-x;
+  height: 400px;
+}
+
+h1 {
+  margin-top: 64px;
+  text-align: center;
+}
+
+h1 img {
+  width: 100%;
+  height: auto;
+}
+
+ol {
+  list-style: none;
+  counter-reset: li
+}
+
+li::before {
+  content: counter(li) ". ";
+  color: #80ccff;
+  display: inline-block;
+  width: 2em;
+  margin-left: -1em;
+  counter-increment: li;
+}
+
+li span {
+  color: #80ccff;
+}
+
+.button {
+  background: #fafafa;
+  width: 100%;
+  margin-bottom: 16px;
+}
